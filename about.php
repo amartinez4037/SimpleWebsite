@@ -3,7 +3,7 @@
 <main>
 	
 	<section>
-		<p>This is my Home page!</p>
+		<p>This page will talk about me!</p>
 	</section>
 
 </main>

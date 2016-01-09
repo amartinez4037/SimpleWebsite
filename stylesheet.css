@@ -3,22 +3,22 @@
 	margin: 0; /* Allows page to span full width - body has default 8px */
 }
 html, body {
-	height: 100%;
+	height: 100%; /* Move footer to bottom even if content not enouph to fill page */
 }
 #container {
 	background-color: black;
-	position: relative;
-	margin: auto;
+	position: relative; /* Make position relative for footer to reference */
+	min-height: 100%; /* Will push footer to the bottom in relation to container */
 	width: 98%;
-	min-height: 100%;
+	margin: auto;
 }
 header {
 	background-color: red;
-	position: fixed;
+	position: fixed; /* Fix position at top */
 	width: 98%;
-	left: 1%;
+	left: 1%; /* Shift to the right to center as content has width of 98% */
 	height: 2em;
-	z-index: 100;
+	z-index: 100; /* Move header to the top */
 }
 main {
 	background-color: white;
@@ -29,8 +29,8 @@ main {
 }
 footer {
 	background-color: blue;
-	position: absolute;
-	bottom: 0;
+	position: absolute; /* Position relative to #container */
+	bottom: 0; /* Position at bottom */
 	width: 100%;
 	height: 2em;
 }

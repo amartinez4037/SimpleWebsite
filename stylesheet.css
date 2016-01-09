@@ -1,0 +1,13 @@
+/* Stylesheet for NerdAron.com */
+#container {
+	background-color: black;
+}
+header {
+	background-color: red;
+}
+main {
+	background-color: white;
+}
+footer {
+	background-color: blue;
+}

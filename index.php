@@ -3,20 +3,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>NerdAron</title>
+
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
 	</head>
 
 	<body>
-		<header>
-			<p>The Header!</p>
-		</header>
+		<div id="container">
+			<header>
+				<p>The Header!</p>
+			</header>
 
-		<div id="main">
-			<p>This is the main body!!!</p>
+			<main>
+				<p>This is the main body!!!</p>
+			</main>
+
+			<footer>
+				<p>The footer</p>
+			</footer>
 		</div>
-
-		<footer>
-			<p>The footer</p>
-		</footer>
-
 	</body>
 </html>

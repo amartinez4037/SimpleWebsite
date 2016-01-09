@@ -1,13 +1,36 @@
 /* Stylesheet for NerdAron.com */
+* {
+	margin: 0; /* Allows page to span full width - body has default 8px */
+}
+html, body {
+	height: 100%;
+}
 #container {
 	background-color: black;
+	position: relative;
+	margin: auto;
+	width: 98%;
+	min-height: 100%;
 }
 header {
 	background-color: red;
+	position: fixed;
+	width: 98%;
+	left: 1%;
+	height: 2em;
+	z-index: 100;
 }
 main {
 	background-color: white;
+	width: 98%;
+	margin: auto;
+	padding-top: 2em; /* Due to header height */
+	padding-bottom: 2em; /* Due to footer height */
 }
 footer {
 	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2em;
 }
